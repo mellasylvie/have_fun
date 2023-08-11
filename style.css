@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: auto;
+    padding: auto;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    background-color: #39A2DB;
+    padding: 3px;
+    /* position: sticky; */
+    top: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav:after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav .logo {
+    float: left;
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 70px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+    list-style: none;
+    position: relative;
+}
+
+nav ul li {
+    display: inline-block;
+    background: #39A2DB;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    line-height: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #1C658C;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 0 0 5px #364e68,
+        0 0 10px #132238;
+}
+
+main {
+    margin: 0 10px;
+}
+
+#about {
+    display: flex;
+    margin: 0 10px 5px 10px;
+}
+
+article .image {
+    width: 40%;
+    margin: auto;
+}
+
+article .content1 {
+    width: 50%;
+    margin: auto;
+}
+
+.content1 h3 {
+    color: #407BFF;
+    font-size: 26px;
+    margin: 5px 0;
+}
+
+.content1 h2 {
+    font-size: 36px;
+    margin: 5px 0;
+}
+
+.content1 p {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.content1 button {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    background-color: #407BFF;
+}
+
+.content1 button a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.content2 {
+    display: flex;
+    margin: 10px;
+}
+
+#skill h2 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.content2 .card {
+    background-color: #407BFF ;
+    margin: 0px 10px 20px 10px;
+    padding: 5px 5px 10px 5px;
+    width: 30%;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+    line-height: 0%;
+    border-radius: 5px;
+    border: 3px solid transparent;
+}
+
+.content2 .card img {
+    width: 80%;
+    margin: auto;
+}
+
+fieldset {
+    background-color: #407BFF;
+    border-radius: 20px;
+    border: 2px solid transparent;
+    padding: 20px 20px 20px 40px;
+    margin: 15px 20px 30px 15px;
+    color: #fff;
+    line-height: normal;
+}
+
+form h2 {
+    font-size: 26px;
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+form label, form p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+input[type="text"], input[type="email"] {
+    width: 90%;
+    padding: 5px;
+    margin: 10px 0 10px 0;
+}
+
+textarea {
+    width: 90%;
+    margin: 15px 0;
+}
+
+form button {
+    background-color: #132238;
+    color: #fff;
+    padding: 15px;
+    font-size: 18px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #407BFF;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
